@@ -4,7 +4,7 @@ public class InsertionSort extends GenericAlgorithm
 {
 
     public InsertionSort() {
-        super("insertion sort", "algorithm", AlgorithmType.SORTING);
+        super("insertion sort", "", AlgorithmType.SORTING);
     }
 
     @Override

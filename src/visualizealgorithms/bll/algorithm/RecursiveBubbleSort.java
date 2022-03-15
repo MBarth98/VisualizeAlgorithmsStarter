@@ -3,8 +3,9 @@ package visualizealgorithms.bll.algorithm;
 public class RecursiveBubbleSort extends GenericAlgorithm
 {
 
-    public RecursiveBubbleSort() {
-        super("Recursive bubble sort", "Sorting bubbles inside bubbles", AlgorithmType.SORTING);
+    public RecursiveBubbleSort()
+    {
+        super("Recursive bubble sort", "stack overflow exception...", AlgorithmType.SORTING);
     }
 
     private void sort(int[] array, int len)

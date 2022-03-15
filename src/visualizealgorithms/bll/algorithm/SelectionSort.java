@@ -6,7 +6,7 @@ public class SelectionSort extends GenericAlgorithm
 {
 
     public SelectionSort() {
-        super("selection sort", "algorithm", AlgorithmType.SORTING);
+        super("selection sort", "O(n^2)", AlgorithmType.SORTING);
     }
 
     @Override

@@ -24,6 +24,8 @@ public class AlgorithmLoader {
         algorithms.add(new SelectionSort());
         algorithms.add(new JavaSort());
 
+        algorithms.add(new QuickSort());
+
         // stack overflow exception
         // algorithms.add(new RecursiveBubbleSort());
     }

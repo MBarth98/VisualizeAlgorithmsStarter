@@ -7,7 +7,7 @@ public class JavaSort extends GenericAlgorithm
 
     public JavaSort()
     {
-        super("java sort", "the sorting algo used by JRE", AlgorithmType.SORTING);
+        super("java sort", "", AlgorithmType.SORTING);
     }
 
     @Override

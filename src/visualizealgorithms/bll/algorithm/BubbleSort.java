@@ -6,7 +6,7 @@ public class BubbleSort extends GenericAlgorithm
 {
 
     public BubbleSort() {
-        super("bubble sort", "algorithm for sorting bubbles", AlgorithmType.SORTING);
+        super("bubble sort", "", AlgorithmType.SORTING);
     }
 
     @Override
