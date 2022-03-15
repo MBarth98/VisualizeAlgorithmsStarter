@@ -1,7 +1,7 @@
 package visualizealgorithms;
 
 //Project imports
-import visualizealgorithms.bll.algorithm.IAlgorithm;
+import visualizealgorithms.bll.algorithm.*;
 
 //Java imports
 import java.util.ArrayList;
@@ -12,16 +12,20 @@ import java.util.ArrayList;
 public class AlgorithmLoader {
 
     private String inputs = "";
-    private ArrayList<IAlgorithm> algorithms = new ArrayList<>();
+    private final ArrayList<IAlgorithm> algorithms = new ArrayList<>();
 
     public AlgorithmLoader() {
         //Modify default inputs
-        inputs = "1000;2000;4000;8000;16000;32000;64000;";
-
-        //Add implemented/selected algorithms here..
+        inputs = "1000;2500;5000;10000;25000;50000;100000;250000;500000;1000000";
 
 
-        //more algorithms here :)
+        algorithms.add(new BubbleSort());
+        algorithms.add(new InsertionSort());
+        algorithms.add(new SelectionSort());
+        algorithms.add(new JavaSort());
+
+        // stack overflow exception
+        // algorithms.add(new RecursiveBubbleSort());
     }
 
     public String getInputs() {
